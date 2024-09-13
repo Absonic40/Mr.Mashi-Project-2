@@ -1,0 +1,52 @@
+@include media(992){
+
+    div.login-singin-2 {
+        margin-bottom: 50px;
+    }
+
+    div.login-singin-1 {
+        display: none;
+    }
+    div.title {
+        background-color: #ffff;
+        direction: ltr;
+      
+        >div.title-matn {
+            direction: rtl;
+            padding: 60px;
+            >p.title-matn-bold {
+                font-size: 30px;
+                font-weight: bolder;
+      
+            }
+      
+            >p.title-matn-info {
+                font-size: 18px;
+                color: gray;
+            }
+      
+            >button.title-button-1 {
+                background-color: #3434ff;
+                border: none;
+                padding: 10px;
+                border-radius: 15px;
+                width: 30%;
+                font-size: 10px;
+      
+            }
+      
+            >button.title-button-2 {
+                border: 1px solid #3434ff;
+                padding: 10px;
+                border-radius: 15px;
+                width: 30%;
+                font-size: 10px;
+            }
+        }
+      
+       
+      
+      
+      }
+    
+}
