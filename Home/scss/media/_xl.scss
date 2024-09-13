@@ -1,0 +1,25 @@
+@include media(1200) {
+    header{
+        div.login-singin-1{
+            display: none;
+        }
+    }
+    p.title-matn-bold {
+        font-size: 30px;
+        font-weight: bolder;
+
+    }
+
+    p.title-matn-info {
+        font-size: 16px;
+        color: gray;
+    }
+
+    div.title-img{
+        >img{
+            margin-left: 50px;
+            width:400px;
+            height: 400px;
+        }
+    }
+}
