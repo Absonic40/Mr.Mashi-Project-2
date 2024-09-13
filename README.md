@@ -1,2 +1,0 @@
-# Mr.Mashi-Project-2
-project 2
