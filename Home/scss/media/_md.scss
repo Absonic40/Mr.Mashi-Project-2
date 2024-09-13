@@ -1,0 +1,71 @@
+@include media(768) {
+  header {
+    direction: ltr;
+
+
+
+    nav.menu {
+      display: flex;
+
+      div.menu {
+        justify-content: right;
+      }
+    }
+
+    div.login-singin-1 {
+      height: 40px;
+      font-size: 11px;
+      font-weight: bold;
+    }
+
+    div.login-singin-2 {
+      display: none;
+      width: 20%;
+    }
+  }
+}
+
+div.title {
+  background-color: #ffff;
+  direction: ltr;
+
+
+  >div.title-matn {
+    direction: rtl;
+    padding: 60px;
+    display: block;
+
+    p.title-matn-bold {
+      font-size: 22px;
+      font-weight: bold;
+
+    }
+
+    p.title-matn-info {
+      font-size: 18px;
+      color: gray;
+    }
+
+    >button.title-button-1 {
+      background-color: #3434ff;
+      border: none;
+      padding: 10px;
+      border-radius: 15px;
+      width: 30%;
+      font-size: 10px;
+
+    }
+
+    >button.title-button-2 {
+      border: 1px solid #3434ff;
+      padding: 10px;
+      border-radius: 15px;
+      width: 30%;
+      font-size: 10px;
+    }
+  }
+
+
+
+
+}
