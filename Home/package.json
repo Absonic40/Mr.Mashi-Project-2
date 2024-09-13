@@ -1,0 +1,17 @@
+{
+  "name": "mr.mashi-project-2",
+  "version": "1.0.0",
+  "description": "project 2",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass -w scss/ -o css/ -r"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "node-sass": "^9.0.0",
+    "sass": "^1.77.8"
+  }
+}
