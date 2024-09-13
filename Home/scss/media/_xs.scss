@@ -1,0 +1,90 @@
+@include media((min-width:0px) and (max-width:540px)) {
+    header{
+        direction: ltr;
+        div.login-singin-2{
+            display: none;
+        }
+        div.login-singin-1{
+             height: 40px;
+             font-size: 11px;
+             font-weight: bold;
+        }
+        
+
+        nav{
+            a{
+                img{
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+        }
+    }
+    div.title {
+        background-color: #ffff;
+        direction: ltr;
+      
+        >div.title-matn {
+            direction: rtl;
+            padding: 60px;
+            p.title-matn-bold {
+                font-size: 10px;
+                font-weight: bold;
+      
+            }
+      
+            p.title-matn-info {
+                font-size: 8px;
+                color: gray;
+            }
+      
+            .title-button-1 {
+                background-color: #3434ff;
+                border: none;
+                padding: 10px;
+                border-radius: 15px;
+                width: 30%;
+                font-size: 8px;
+      
+            }
+      
+            .title-button-2 {
+                border: 1px solid #3434ff;
+                padding: 10px;
+                border-radius: 15px;
+                width: 30%;
+                font-size: 8px;
+            }
+        }
+      
+        >div.title-img{
+            >img{
+                height: 250px;
+                width: 250px;
+                margin-top: 40px;
+            }
+           }
+      
+      
+      }
+      h5.card-title{
+        font-size: 16px;
+    }
+    
+    p.card-price{
+        font-size: 13px;
+    }
+    
+    a.card-info{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    p.info{
+        font-size: 14px;
+    }
+    div.flex-card{
+        font-size: 10px;
+    }
+      
+}
